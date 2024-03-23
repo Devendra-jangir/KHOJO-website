@@ -31,23 +31,11 @@ Here are some screenshots of Khojo in action:
 
 ## Getting Started
 
-To get started with Khojo, simply visit our website (https://khojo-v2.netlify.app/service) and start exploring our curated collection of courses and roadmaps. You can navigate through different sections of the website to find the information you need.
+To get started with Khojo, simply visit our website ((https://khojo-dev.netlify.app/)) and start exploring our curated collection of courses and roadmaps. You can navigate through different sections of the website to find the information you need.
 
 ## Contributing
 
 We welcome contributions from the community to enhance Khojo and make it even more valuable for learners. If you have suggestions for new features, improvements, or bug fixes, please feel free to submit a pull request or open an issue on our GitHub repository [link to GitHub repo].
-
-## Feedback
-
-Your feedback is important to us! If you have any questions, suggestions, or concerns, please don't hesitate to contact us at [sarathetanjul@gmail.com]. We're constantly striving to improve Khojo and provide the best learning experience for our users.
-
-## License
-
-Khojo is open-source software licensed under the [license name]. You are free to use, modify, and distribute the software according to the terms of the license.
-
-## Acknowledgments
-
-We would like to express our gratitude to the open-source community for their valuable contributions and support in building Khojo.
 
 Thank you for choosing Khojo for your learning journey! Happy exploring!
 =======
