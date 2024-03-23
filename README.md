@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Khojo: Course Search Website
 
 Welcome to Khojo, your personalized course search website designed to help you discover course recommendations and roadmaps for learning various tech stacks. With Khojo, you can explore curated learning paths tailored to your interests and goals.
@@ -49,3 +50,7 @@ Khojo is open-source software licensed under the [license name]. You are free to
 We would like to express our gratitude to the open-source community for their valuable contributions and support in building Khojo.
 
 Thank you for choosing Khojo for your learning journey! Happy exploring!
+=======
+# KHOJO-website
+Welcome to Khojo, your personalized course search website designed to help you discover course recommendations and roadmaps for learning various tech stacks. With Khojo, you can explore curated learning paths tailored to your interests and goals.
+>>>>>>> origin/main
