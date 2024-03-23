@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain-Courses</title>
+    <style>
+      * {
+        padding:0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        position: relative;
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 35px;
+      }
+      .container .card {
+        height: 250px;
+        max-width: 340px;
+        position: relative;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        background: rgb(117 187 223);
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s ease-in-out;
+        border-radius: 5%;
+        border: 1px solid rgb(93, 89, 89);
+      }
+      .container .card:hover {
+        height: 480px;
+      }
+      .containe .card .imgbox {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        top: -60px;
+        left: 20px;
+      }
+      .container .card .imgbox img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+      .container .card .content {
+        position: relative;
+        margin-top: -100px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+      }
+      .container .card:hover .content {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.3s;
+      }
+      h1{
+        margin: 10px;
+        padding-top: 2rem;
+    
+      }
+      button {
+      border: none;
+      margin-top: 20px;
+      background: #2396c4;
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      position: relative;
+      box-sizing: border-box;
+      transition: all 500ms ease;
+      cursor: pointer; 
+    }
+    button:hover{
+      color: #ff7a59;
+      border: #ff7a59 solid 1px;
+      background:#fff;
+    }
+    .center{
+      margin: auto;
+      width: 30%;
+      padding: 10px;
+      border:50px ;
+
+    }
+    </style>
+  </head>
+  <body>
+    <div style="flex-direction: column">
+      <div class="center">
+      <h1>Blockchain Courses</h1>
+      </div>
+      <button>&larr; Back </button>
+      <h1 class="header1">Free Courses</h1>
+      <div class="container">
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/6aF6p2VUORE?list=PLgPmWS2dQHW_CuryjGPkyH0PNXJ2B0hAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Code Eater</h1>
+            <p>
+                Blockchain Full Course - 6 hours | Blockchain Tutorial 
+            </p>
+            <a href="https://www.youtube.com/watch?v=6aF6p2VUORE" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/mfSr-c9sAjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>5  Minutes Engineering
+            </h1>
+            <p>
+              Complete Blockchain Playlist
+            </p>
+            <a href="https://www.youtube.com/watch?v=mfSr-c9sAjI&list=PLYwpaL_SFmcDFRupamGc-9zc-vQqvkQnn" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox" >
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/cGQHXmCS94M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Dapp University</h1>
+            <p>
+              Intro to Blockchain Programming [FULL COURSE 2023]
+            </p>
+            <a href="https://www.youtube.com/watch?v=RZFjrI0oWyw&list=PLPIwNooIb9vgfXs-QkRYqqZbDXX-yLf59" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+          
+        </div>
+        <a href="https://roadmap.sh/blockchain" target="_blank">
+        <button class="button" >Roadmap</button></a>
+      </div>
+        <h1>Paid Courses</h1>
+        <div class="container">
+          <div class="card">
+            <div class="imgbox" >
+              <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*UfosUyZgOE97ntxNVuBFEg.png" style="height:215px" alt="">
+            </div>
+            <div class="content">
+              <h1>Mastering Blockchain</h1>
+              <p>
+                Learn, Analyse and Implement Blockchain
+              </p>
+              <a href="https://www.udemy.com/course/build-your-blockchain-az/" target="_blank"><button class="button">Course</button>
+              </a>
+        </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbox" >
+            <img src="https://www.classcentral.com/report/wp-content/uploads/2021/04/pluralsight-top-courses.png" alt="">
+          </div>
+          <div class="content">
+            <h1>Blockchain and fundamentals</h1>
+            <p>
+              Get hands-on practice of Blockchain and technical mentor support when needed to help prepare you for interviews and on-the-job scenarios.
+            </p>
+            <a href="https://www.pluralsight.com/courses/blockchain-principles-practices" target="_blank"><button class="button">Course</button>
+            </a>
+      </div>
+      </div>
+        <div class="card">
+          <div class="imgbox">
+            <img
+              src="https://myelearningworld.com/wp-content/uploads/2022/06/udemy-review.jpg"
+            />
+          </div>
+          <div class="content">
+            <h1>Master Blockchain With the  udemy Program</h1>
+            <p>
+              Build intuition on the inner workings of various blockchain, a foundational skill for any top software engineer.
+            </p>
+            <a href="https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

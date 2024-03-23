@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA-Courses</title>
+    <style>
+      * {
+        padding:0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(230, 224, 224); */
+      }
+      .container {
+        position: relative;
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 35px;
+      }
+      .container .card {
+        height: 250px;
+        max-width: 340px;
+        position: relative;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        background: rgb(117 187 223);
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 0 5px 202px rgb(123, 118, 118); */
+        transition: 0.3s ease-in-out;
+        border-radius: 5%;
+        border: 1px solid rgb(93, 89, 89);
+      }
+      .container .card:hover {
+        height: 480px;
+      }
+      .containe .card .imgbox {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        top: -60px;
+        left: 20px;
+      }
+      .container .card .imgbox img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+      .container .card .content {
+        position: relative;
+        margin-top: -100px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+      }
+      .container .card:hover .content {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.3s;
+      }
+      h1{
+        margin-top: auto;
+        padding-top: 2rem;
+      }
+      button {
+      border: none;
+      margin-top: 20px;
+      background: #2396c4;
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      position: relative;
+      box-sizing: border-box;
+      transition: all 500ms ease;
+      cursor: pointer; 
+    }
+    button:hover{
+      color: #ff7a59;
+      border: #ff7a59 solid 1px;
+      background:#fff;
+    }
+    .center{
+      margin: auto;
+      width: 20%;
+      padding: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <div style="flex-direction: column">
+      <div class="center">
+      <h1>DSA COURSES</h1>
+      </div>
+      <button>&larr; Back </button>
+      <h1 class="header1">Free Courses</h1>
+      <div class="container">
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/videoseries?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Apna College</h1>
+            <p>
+              Java Complete Course | Placement Series
+            </p>
+            <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/videoseries?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <!--heading of the card-->
+            <h1>CodeHelp - By Babbar</h1>
+            <p>
+              Complete C++ Placement DSA Course
+            </p>
+            <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox" >
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/videoseries?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Kunal Kushwaha</h1>
+            <p>
+              Java + DSA + Interview Preparation Course
+            </p>
+            <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+          
+        </div>
+        <a href="https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link/c25f98c73a03f5b1107cd0e2f4bce29c9d78e31655e55cb0b785d56f0036c9d1" target="_blank">
+        <button class="button" >Roadmap</button></a>
+      </div>
+      <!-- <div style="flex-direction: column;"> -->
+        <h1>Paid Courses</h1>
+        <div class="container">
+          <div class="card">
+            <div class="imgbox" >
+              <img src="https://freetutorialsweb.com/wp-content/uploads/2022/06/mastering-data-structures-algorithms-using-c-and-c.jpg" style="height:215px" alt="">
+            </div>
+            <div class="content">
+              <h1>Mastering DSA using C and C++</h1>
+              <p>
+                Learn, Analyse and Implement Data Structure using C and C++. Learn Recursion and Sorting.
+              </p>
+              <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank"><button class="button">Course</button>
+              </a>
+        </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbox" >
+            <img src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/2dmDLmWvCncVHcQ6lz9u5v/9ebc8c914fcf0e8b546bce78133b2a4a/OpenGraph_Udacity_Logo_Update__1_.png" alt="">
+          </div>
+          <div class="content">
+            <h1>Data Structures and Algorithms</h1>
+            <p>
+              Get hands-on practice with over 100 data structures and algorithm exercises and technical mentor support when needed to help prepare you for interviews and on-the-job scenarios.
+            </p>
+            <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank"><button class="button">Course</button>
+            </a>
+      </div>
+      </div>
+        <div class="card">
+          <div class="imgbox">
+            <img
+              src="https://i.ytimg.com/vi/f20o7Q6ZU-k/maxresdefault.jpg"
+            />
+          </div>
+          <div class="content">
+            <!--heading of the card-->
+            <h1>Master DSA With the Scaler Academy Program</h1>
+            <p>
+              Build intuition on the inner workings of various DSA, a foundational skill for any top software engineer.
+            </p>
+            <a href="https://in.coursera.org/specializations/front-end-development-using-react-specialization" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

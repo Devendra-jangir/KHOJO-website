@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android development-Courses</title>
+    <style>
+      * {
+        padding:0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        position: relative;
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 35px;
+      }
+      .container .card {
+        height: 250px;
+        max-width: 340px;
+        position: relative;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        background: rgb(117 187 223);
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s ease-in-out;
+        border-radius: 5%;
+        border: 1px solid rgb(93, 89, 89);
+      }
+      .container .card:hover {
+        height: 480px;
+      }
+      .containe .card .imgbox {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        top: -60px;
+        left: 20px;
+      }
+      .container .card .imgbox img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+      .container .card .content {
+        position: relative;
+        margin-top: -100px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+      }
+      .container .card:hover .content {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.3s;
+      }
+      h1{
+        margin: 10px;
+        padding-top: 2rem;
+    
+      }
+      button {
+      border: none;
+      margin-top: 20px;
+      background: #2396c4;
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      position: relative;
+      box-sizing: border-box;
+      transition: all 500ms ease;
+      cursor: pointer; 
+    }
+    button:hover{
+      color: #ff7a59;
+      border: #ff7a59 solid 1px;
+      background:#fff;
+    }
+    .center{
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      border:50px ;
+
+    }
+    </style>
+  </head>
+  <body>
+    <div style="flex-direction: column">
+      <div class="center">
+      <h1>ANDROID DEVELOPMENT COURSES</h1>
+      </div>
+      <button>&larr; Back </button>
+      <h1 class="header1">Free Courses</h1>
+      <div class="container">
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/mXjZQX3UzOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Code with harry</h1>
+            <p>
+                App-development Full Course - 12 hours 
+            </p>
+            <a href="https://www.youtube.com/watch?v=mXjZQX3UzOs" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/InigFUSiPl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Code with Harry
+            </h1>
+            <p>
+              Complete App-development Playlist
+            </p>
+            <a href="https://www.youtube.com/watch?v=InigFUSiPl8&list=PLu0W_9lII9aiL0kysYlfSOUgY5rNlOhUd" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox" >
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/u64gyCdqawU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>WsCube Tech
+            </h1>
+            <p>
+                Android App Development Course for Beginners - Learn Android Development in 41 Hours
+            </p>
+            <a href="https://www.youtube.com/watch?v=RZFjrI0oWyw&list=PLPIwNooIb9vgfXs-QkRYqqZbDXX-yLf59" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+          
+        </div>
+        <a href="https://roadmap.sh/android" target="_blank">
+        <button class="button" >Roadmap</button></a>
+      </div>
+        <h1>Paid Courses</h1>
+        <div class="container">
+          <div class="card">
+            <div class="imgbox" >
+              <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/19/d2/c0/19d2c0b6-573b-6f0e-d467-b0225a6f76ae/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/1200x630wa.png" style="height:215px" alt="">
+            </div>
+            <div class="content">
+              <h1>Mastering Blockchain</h1>
+              <p>
+                Learn, Analyse and Implement Android-development
+              </p>
+              <a href="https://in.coursera.org/specializations/android-app-development?action=enroll" target="_blank"><button class="button">Course</button>
+              </a>
+        </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbox" >
+            <img src="https://myelearningworld.com/wp-content/uploads/2022/06/udemy-review.jpg" alt="">
+          </div>
+          <div class="content">
+            <h1>Blockchain and fundamentals</h1>
+            <p>
+              Get hands-on practice of app development and technical mentor support when needed to help prepare you for interviews and on-the-job scenarios.
+            </p>
+            <a href="https://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/" target="_blank"><button class="button">Course</button>
+            </a>
+      </div>
+      </div>
+        <div class="card">
+          <div class="imgbox">
+            <img
+              src="https://assets.carolus.kodeco.com/assets/kodeco/kodeco_og-card-407902405b9dd0a39ca47efb3b6477865605d373002abcd9b28846491c4d7717.png"
+            />
+          </div>
+          <div class="content">
+            <h1>Master flutter fundamentals With the  udemy kodeco</h1>
+            <p>
+              Build intuition on the inner workings of flutter, a foundational skill for any top app developer.
+            </p>
+            <a href="https://www.kodeco.com/flutter/paths/flutter-fundamentals" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

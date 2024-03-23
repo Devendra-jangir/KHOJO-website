@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science</title>
+    <style>
+      * {
+        padding:0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(230, 224, 224); */
+      }
+      .container {
+        position: relative;
+        width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 35px;
+      }
+      .container .card {
+        height: 250px;
+        max-width: 340px;
+        position: relative;
+        margin: 30px 10px;
+        padding: 20px 15px;
+        background: rgb(117 187 223);
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 0 5px 202px rgb(123, 118, 118); */
+        transition: 0.3s ease-in-out;
+        border-radius: 5%;
+        border: 1px solid rgb(93, 89, 89);
+      }
+      .container .card:hover {
+        height: 480px;
+      }
+      .containe .card .imgbox {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        top: -60px;
+        left: 20px;
+      }
+      .container .card .imgbox img {
+        max-width: 100%;
+        border-radius: 4px;
+      }
+      .container .card .content {
+        position: relative;
+        margin-top: -100px;
+        padding: 10px 15px;
+        text-align: center;
+        color: #111;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+      }
+      .container .card:hover .content {
+        visibility: visible;
+        opacity: 1;
+        margin-top: -10px;
+        transition-delay: 0.3s;
+      }
+      h1{
+        margin-top: auto;
+        padding-top: 2rem;
+      }
+      button {
+      border: none;
+      margin-top: 20px;
+      background: #2396c4;
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      position: relative;
+      box-sizing: border-box;
+      transition: all 500ms ease;
+      cursor: pointer; 
+    }
+    button:hover{
+      color: #ff7a59;
+      border: #ff7a59 solid 1px;
+      background:#fff;
+    }
+    .center{
+      margin: auto;
+      /* width: 20%; */
+      /* border: 3px solid green; */
+      padding: 10px;
+      margin-left: 35%;
+
+    }
+    </style>
+  </head>
+  <body>
+    <div style="flex-direction: column">
+      <div class="center">
+      <h1>DATA SCIENCE COURSES</h1>
+      </div>
+      <button>&larr; Back </button>
+      <h1 class="header1">Free Courses</h1>
+      <div class="container">
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/pr9r-RyhELE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Python for Data science</h1>
+            <p>
+              Beginner based  data science course By skillup 
+            </p>
+            <a href="https://in.skillup.online/courses/python-for-data-science/" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox">
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/tkR3SGRuT8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <!--heading of the card-->
+            <h1>Understanding Data Science - By Datacamp</h1>
+            <p>
+              Full Data science  coursess
+            </p>
+            <a href="https://www.datacamp.com/courses/understanding-data-science" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox" >
+            <iframe width="340" height="215" src="https://www.youtube.com/embed/u9MIwoFWXVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="content">
+            <h1>Learn Data science - on Kaggle</h1>
+            <p>
+              Beginner to pro level in data science 
+            </p>
+            <a href="https://www.kaggle.com/learn" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+          
+        </div>
+        <a href="https://www.geeksforgeeks.org/how-to-become-data-scientist-a-complete-roadmap/" target="_blank">
+        <button class="button" >Roadmap</button></a>
+      </div>
+      <!-- <div style="flex-direction: column;"> -->
+        <h1>Paid Courses</h1>
+        <div class="container">
+          <div class="card">
+            <div class="imgbox" >
+              <img src="https://almablog-media.s3.ap-south-1.amazonaws.com/Full_stack_Data_Science_SEO_min_9eb311eefb.png" alt="">
+            </div>
+            <div class="content">
+              <h1>Full stack data science - AImaBetter </h1>
+              <p>
+                Become a job-ready Data Science professional . Explore new thing ..
+              </p>
+              <a href="https://www.almabetter.com/courses/full-stack-data-science" target="_blank"><button class="button">Course</button>
+              </a>
+        </div>
+        </div>
+
+        <div class="card">
+          <div class="imgbox" >
+            <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2021-08/13/full/1628859025-1349.jpg" alt="">
+          </div>
+          <div class="content">
+            <h1>Data science Program - Scaler</h1>
+            <p>
+              Get hands-on practice with over 100 data science and Machine learning and technical mentor support when needed to help prepare you for interviews and on-the-job scenarios.
+            </p>
+            <a href="https://www.scaler.com/data-science-course/" target="_blank"><button class="button">Course</button>
+            </a>
+      </div>
+      </div>
+        <div class="card">
+          <div class="imgbox">
+            <img
+              src="https://www.odinschool.com/hubfs/YT%20Thumbnails%20(13).jpg"
+            />
+          </div>
+          <div class="content">
+            <h1>Best Data Science Course - odinschool</h1>
+            <p>
+              Build intuition on the inner workings of various data science, a foundational skill for any top Data scientist.
+            </p>
+            <a href="https://www.odinschool.com/datascience-bootcamp" target="_blank"><button class="button">Course</button>
+            </a>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
