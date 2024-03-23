@@ -11,7 +11,7 @@ Welcome to Khojo, your personalized course search website designed to help you d
 
 ## Live Demo
 
-Check out the live demo of Khojo [https://khojo-v2.netlify.app/]
+Check out the live demo of Khojo https://khojo-dev.netlify.app/
 
 ## Screenshots
 
